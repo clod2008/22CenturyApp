@@ -1,0 +1,25 @@
+nav {
+    background-color: transparent !important;
+    transition: 0.3s all;
+
+
+   
+
+}
+
+#navbarNav {
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 2em;
+    }
+
+    
+    
+}
+
+
+.activeNav{
+    background-color: var(--bs-primary) !important ;
+
+}
