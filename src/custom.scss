@@ -3,7 +3,19 @@ $theme-colors: (
         "primary": #154946,
         "secondary": #DC9A01,
         "malargueBg": #FAFAFA,
+        // "light":      #F9F9F9,
 );
+
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// 
 
 
 /* import bootstrap to set changes */
@@ -21,6 +33,7 @@ $btn-padding-x: 1.3em;
         --negro: #222222 ;
         --bg-primay: #FAFAFA;
         --bs-info: #B9EBE8 !important;
+        --bs-light: #F9F9F9 !important;
          
         body {
                 font-family: Newsreader;

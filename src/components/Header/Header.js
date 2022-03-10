@@ -13,15 +13,15 @@ const Header = ({ image, title}) => {
           backgroundImage: `url(${image})`,
         }}
       >
-        <div className="container"
+        <div className="container h-100"
         >
-          <div className="row justify-content-end">
-            <div className="col-md-6 "
+          <div className="row justify-content-end h-100 align-items-center"
+          >
+            <div className="col-md-8 "
             >
-              <div className="row">
                 <h1>{title[1]}</h1>
-              </div>
-              <div className="row mt-5">
+            </div>
+              {/* <div className="row mt-5">
                 <div className="col-md-4 d-grid">
                   <button className="btn btn-secondary" type="button">Cotizá tu envío</button>
                 </div>
@@ -32,8 +32,8 @@ const Header = ({ image, title}) => {
                   <button className="btn btn-primary" type="button">Seguí tu envío</button>
                 </div>
 
-              </div>
-            </div>
+              </div> */}
+  
           </div>  
         </div>
         
