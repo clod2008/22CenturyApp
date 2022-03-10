@@ -1,7 +1,7 @@
 /* make the customizations */
 $theme-colors: (
-        "primary": #2F3394,
-        "secondary": #EB1C23,
+        "primary": #154946,
+        "secondary": #DC9A01,
         "malargueBg": #FAFAFA,
 );
 
@@ -16,15 +16,22 @@ $btn-padding-x: 1.3em;
 }
 
 :root {
-        --bs-primary: #2F3394 !important;
+        --bs-primary: #154946 !important;
+        --bs-secondary: #DC9A01 !important;
         --negro: #222222 ;
-        --bg-primay: #FAFAFA; 
-        --bs-secondary: #EB1C23 !important;
-
+        --bg-primay: #FAFAFA;
+        --bs-info: #B9EBE8 !important;
+         
         body {
-                font-family: poppins;
+                font-family: Newsreader;
                 background-color: white
         }
+}
+
+h1{
+        font-family: 'Newsreader';
+        font-weight: 400
+        
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";

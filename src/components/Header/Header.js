@@ -2,7 +2,7 @@ import React from "react";
 import './Header.scss'
 
 
-const Header = ({ image, title, page }) => {
+const Header = ({ image, title}) => {
   return (
     <section
       id="Header"
@@ -14,31 +14,27 @@ const Header = ({ image, title, page }) => {
         }}
       >
         <div className="container"
-                     style={{
-                      backgroundColor: 'yellow'
-                    }}
         >
-          <div className="col-md-9 hero-title-big offset-md-4"
-           style={{
-             backgroundColor: 'red'
-           }}
-          >
-            <div className="row">
-              <h1>{title[1]}</h1>
-            </div>
-            <div className="row mt-5">
-              <div className="col-md-4 d-grid">
-                <button className="btn btn-secondary" type="button">Cotizá tu envío</button>
+          <div className="row justify-content-end">
+            <div className="col-md-6 "
+            >
+              <div className="row">
+                <h1>{title[1]}</h1>
               </div>
-              <div className="col-md-4 d-grid">
-                <button className="btn btn-primary" type="button">Generá tu envío</button>
-              </div>
-              <div className="col-md-4 d-grid">
-                <button className="btn btn-primary" type="button">Seguí tu envío</button>
-              </div>
+              <div className="row mt-5">
+                <div className="col-md-4 d-grid">
+                  <button className="btn btn-secondary" type="button">Cotizá tu envío</button>
+                </div>
+                <div className="col-md-4 d-grid">
+                  <button className="btn btn-primary" type="button">Generá tu envío</button>
+                </div>
+                <div className="col-md-4 d-grid">
+                  <button className="btn btn-primary" type="button">Seguí tu envío</button>
+                </div>
 
+              </div>
             </div>
-          </div>
+          </div>  
         </div>
         
         

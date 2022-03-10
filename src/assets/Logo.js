@@ -1,14 +1,17 @@
 import React from 'react'
 
-export const Logo = (color, height) => {
+export const Logo = ({iconColor, iconHeight, iconWidth}) => {
   return (
-<svg xmlns="http://www.w3.org/2000/svg"  width="515.382" height="166.6" viewBox="0 0 515.382 166.6">
+<svg xmlns="http://www.w3.org/2000/svg"  
+  width={iconWidth}
+  height={iconHeight} 
+  viewBox="0 0 515.382 166.6">
   <defs>
     <clipPath id="clip-path">
       <rect id="Rectángulo_5" data-name="Rectángulo 5" width="515.382" height="166.6" transform="translate(-268.618 -83.79)" fill="none"/>
     </clipPath>
   </defs>
-  <g id="_22ndCenturyCapitalGreen" data-name="22ndCenturyCapitalGreen" transform="translate(-231.382 -416.21)">
+  <g id="_22ndCenturyCapitalGreen" data-name="22ndCenturyCapitalGreen" transform="translate(-231.382 -416.21)" fill={iconColor}>
     <g id="Grupo_2" data-name="Grupo 2" transform="translate(500 500)" clip-path="url(#clip-path)">
       <path id="Trazado_1" data-name="Trazado 1" d="M212.954-55.076H129.066V-5.194h17.248V-41.552h66.542c12.838,0,16.562,3.038,16.562,13.524v38.22c0,9.8-3.626,12.74-16.562,12.74H126.91V36.456h85.946c25.872,0,33.81-9.016,33.81-26.166V-28.028C246.764-46.158,238.826-55.076,212.954-55.076Z"/>
       <path id="Trazado_2" data-name="Trazado 2" d="M-202.762-54.782h-60.956v13.524h60.956c7.84,0,11.466,3.038,11.466,8.428v5.586c0,5.488-3.626,8.428-11.466,8.428H-239.9c-15.876,0-24.206,5.194-27.342,13.524h64.484c20.776,0,28.714-9.016,28.714-22.148v-5.292C-173.95-45.766-181.888-54.782-202.762-54.782Z"/>

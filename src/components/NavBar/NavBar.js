@@ -1,38 +1,15 @@
 import React, { useState } from "react"
 import { NavLink } from "react-router-dom"
 import { Logo } from "../../assets/Logo"
+import { links } from "../../js/link"
+
 import './NavBar.scss'
 
 export const NavBar = () => {
 
     const [navBar, setNavBar] = useState(false);
 
-    const links = [
-      {
-          to: '/',
-          name: 'Home'
-      },
-      {
-          to: '/servicios',
-          name: 'Servicios'
-      },
-      {
-          to: '/nosotros',
-          name: 'Nosotros'
-      },
-      {
-          to: '/seguimiento',
-          name: 'Seguimiento'
-      },
-      {
-          to: '/cotiza',
-          name: 'Cotiza'
-      },
-      {
-          to: '/contacto',
-          name: 'Contacto'
-      },
-    ];
+
 
 
     const changeBacground =()=>{
@@ -60,7 +37,7 @@ export const NavBar = () => {
       > 
         <div className="container">
           <a className="navbar-brand" href="#">
-            {<Logo  />}
+            {<Logo iconColor={'white'} iconHeight={50}/>}
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

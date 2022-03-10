@@ -1,14 +1,18 @@
 #Header{
     
-    
+    h1{
+        color: var(--bs-info);
+        font-style: italic;
+    }
     .hero-landing-1{
+        padding-top: 180px;
         height: 771px;
     }
     .hero-title-big{
         margin-top: 150px;
-        padding-right: 55px;
-        
     
     }
+
+
 } 
 
