@@ -15,7 +15,7 @@ const Header = ({ image, title, page }) => {
       >
         <div className="container"
                      style={{
-                      backgroundColor: 'aqua'
+                      backgroundColor: 'yellow'
                     }}
         >
           <div className="col-md-9 hero-title-big offset-md-4"
