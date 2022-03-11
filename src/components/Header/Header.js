@@ -1,4 +1,5 @@
 import React from "react";
+import { LogoAnimado } from "../LogoAnimado/LogoAnimado";
 import './Header.scss'
 
 
@@ -15,9 +16,12 @@ const Header = ({ image, title}) => {
       >
         <div className="container h-100"
         >
-          <div className="row justify-content-end h-100 align-items-center"
+          <div className="row justify-content-between h-100 align-items-center"
           >
-            <div className="col-md-8 "
+            <div className='col-md-4 text-center'>
+                <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'200'}/>  
+            </div>
+            <div className="col-md-6 "
             >
                 <h1>{title[1]}</h1>
             </div>

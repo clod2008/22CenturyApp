@@ -4,7 +4,6 @@ import {
     logoMercadoPago,
     logoTiendaNube,
     loogMalargueColor
-
 } from '../../assets'
 import siteData from '../../assets/data'
 import { EmailIcon } from '../../assets/EmailIcon'
@@ -17,14 +16,12 @@ import './Footer.scss'
 
 
 export const Footer = () => {
-
         const{
             phone,
             adress,
             social,
             email,
-            } = siteData
-            
+            } = siteData  
     return (
     <footer id='footerMalargue'>
         <div className='container'
@@ -39,8 +36,6 @@ export const Footer = () => {
                     <p>
                     Contactanos por <strong>Whatsapp</strong> de Lunes a<br/> Viernes de 9 a 17 hs.
                     </p>
-                    
-
                 </div>
                 <div className='col-md-6'
                 >

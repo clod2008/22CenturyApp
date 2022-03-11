@@ -7,6 +7,8 @@ import { bgHome } from "../assets";
 import { BannerHome } from "../components/BannerHome/BannerHome";
 import { Novedades } from "../components/Novedades/Novedades";
 import { LogoCarousel } from "../components/LogoCarousel/LogoCarousel";
+import { LogoAnimado } from "../components/LogoAnimado/LogoAnimado";
+import { Explainer } from "../components/Explainer/Explainer";
 
 
 
@@ -24,7 +26,8 @@ const Home = () => {
         ]}
         page={true}
       />
-
+      <Explainer />
+      
     </>
   );
 };
