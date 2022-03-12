@@ -40,9 +40,7 @@ export const AppRouter = () => {
             <Route path="/contacto" element={<Contacto />} />
         </Routes>
         <Footer/>
-        <Footer/>
-        <Footer/>
-        <Footer/>
+
     </BrowserRouter>
     
   )

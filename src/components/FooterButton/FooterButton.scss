@@ -1,0 +1,67 @@
+ .footerButtons{
+
+    
+     margin: 2em;
+     height: 50px;
+     position: relative;
+
+     i{
+        color: var(--bs-info);
+        opacity: 0.5;
+        margin: 0 0 1px 0;
+     }
+
+     p{
+         color: var(--bs-info);
+         font-family: 'Lato';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 18px;
+        
+         span{
+            margin-left: 3em;
+            opacity: 0.5 !important;
+
+        }
+     }
+
+    &:before{
+        content: "";
+        display: block;
+        height: 100%;
+        height: 1px;
+        background: var(--bs-info);
+        margin-bottom: 1em;
+        margin-left: -15px;
+        margin-right: -15px;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        opacity: 0.5 !important;
+    }
+    &:after{
+        content: "";
+        display: block;
+        height: 100%;
+        height: 2px;
+        background: var(--bs-info);
+        margin-bottom: 1em;
+        margin-left: -15px;
+        margin-right: -15px;
+        width: 0%;
+        transition: all .3s;
+        position: absolute;
+        bottom: 0px;
+        opacity: 0.5 !important;;
+    }
+    &:hover:after{
+        width: 100%; 
+        margin-right: 15px;
+
+    }
+
+
+
+
+ }
+

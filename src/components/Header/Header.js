@@ -19,9 +19,9 @@ const Header = ({ image, title}) => {
           <div className="row justify-content-between h-100 align-items-center"
           >
             <div className='col-md-4 text-center'>
-                <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'200'}/>  
+                <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'150'}/>  
             </div>
-            <div className="col-md-6 "
+            <div className="col-md-7 "
             >
                 <h1>{title[1]}</h1>
             </div>

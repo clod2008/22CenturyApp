@@ -6,6 +6,10 @@ $theme-colors: (
         // "light":      #F9F9F9,
 );
 
+// font-family: 'Lato', sans-serif;
+// font-family: 'Newsreader', serif;
+
+
 // $theme-colors: (
 //   "primary":    $primary,
 //   "secondary":  $secondary,
@@ -34,15 +38,30 @@ $btn-padding-x: 1.3em;
         --bg-primay: #FAFAFA;
         --bs-info: #B9EBE8 !important;
         --bs-light: #F9F9F9 !important;
-        --logoOverlay : rgba(0, 255, 255, 0.4);
+        --logoOverlay : rgba(255, 255, 255, 0.4);
          
         body {
-                font-family: Newsreader;
+                font-family: Lato;
                 background-color: white
         }
 }
 
 h1{
+        font-family: 'Newsreader';
+        font-weight: 400
+        
+}
+h2{
+        font-family: 'Newsreader';
+        font-weight: 400
+        
+}
+h3{
+        font-family: 'Newsreader';
+        font-weight: 400
+        
+}
+h4{
         font-family: 'Newsreader';
         font-weight: 400
         
