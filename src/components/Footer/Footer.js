@@ -1,19 +1,9 @@
 import React from 'react'
-import { 
-    tarjetas,
-    logoMercadoPago,
-    logoTiendaNube,
-    loogMalargueColor
-} from '../../assets'
 import siteData from '../../assets/data'
 import { socialData } from '../../js/social'
-
-import { EmailIcon } from '../../assets/EmailIcon'
-
-import {FaIcon} from '../../assets/FaIcon'
-import { IgIcon } from '../../assets/IgIcon'
 import { Logo } from '../../assets/Logo'
 import { FooterButton } from '../FooterButton/FooterButton'
+import { links } from '../../js/link'
 
 
 
@@ -27,6 +17,7 @@ export const Footer = () => {
             social,
             email,
             } = siteData 
+        
     return (
     <footer id='footer22Century'>
         <div className='container-fluid'>
@@ -34,7 +25,7 @@ export const Footer = () => {
                 <div className='col-md-3 mb-4'>
                     <Logo iconColor={'var(--bs-info)'} iconWidth={'80%'} iconHeight={'148'}/>
                 </div>
-                <div className='col-md-3'
+                <div className='col-md-3 pb-5'
                 >
                     <h2>The future is not waiting</h2>
                 </div>
@@ -47,30 +38,45 @@ export const Footer = () => {
                         </p>
                     </div>
             </div>
-
-            <div className='row align-items-center justify-content-center'>
-                <div className='col-md-3'>
+            <div className='row justify-content-center'>
+                <div className='col-md-3 footerButtonCont'>
                     {socialData.map(({icon, text, link})=>(
-
                             <FooterButton icon={icon} text={text} link={link}
                                 key={text}
                             />
                     ))}
                 </div>
                     <div className='col-md-3'
-                            style={{
-                            }}
                             >
-                        <p className='footerStrong'>
-                            {adress}
-                        </p>
+                        <div className='row'>
+                            <div className='col-md-6 contactFooter'
+
+                            >
+                                <p> CONTACT </p>
+                                <p> San Francisco </p>
+                                <p> New York </p>
+                                <p> London </p>
+                            </div>
+                            <div className='col-md-6 linksFooter'
+                            >
+                                {links.map(({name, to})=>(
+                                    <a
+                                        key={name}
+                                        href={to}
+                                    >
+                                        <p>{name}</p>
+                                    </a>
+                                ))}
+                            </div>
+                        </div>       
                     </div>
                     <div className='col-md-3'
                         style={{
                         }}
                     >
-                        <p className='footerStrong'>
-                        Politicas de privacidad | Terminos y condiciones
+                        <p className=''>
+                            Privacy policy	
+                            Terms of use and disclaimer
                         </p>
                     </div>
 

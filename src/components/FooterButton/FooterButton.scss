@@ -1,9 +1,15 @@
  .footerButtons{
 
     
-     margin: 2em;
-     height: 50px;
-     position: relative;
+   
+    height: 50px;
+    position: relative;
+
+
+     .row{
+         padding-top: 2em;
+         
+     }
 
      i{
         color: var(--bs-info);
@@ -31,7 +37,7 @@
         height: 100%;
         height: 1px;
         background: var(--bs-info);
-        margin-bottom: 1em;
+        margin-bottom: -21px;
         margin-left: -15px;
         margin-right: -15px;
         width: 100%;
@@ -45,7 +51,7 @@
         height: 100%;
         height: 2px;
         background: var(--bs-info);
-        margin-bottom: 1em;
+        margin-bottom: -21px;
         margin-left: -15px;
         margin-right: -15px;
         width: 0%;

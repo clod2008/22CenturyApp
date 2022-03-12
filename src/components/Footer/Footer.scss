@@ -3,21 +3,32 @@
     padding-top: 67px;
     padding-bottom: 100px;
     color: var(--bs-info) !important;
+
+    a{
+        text-decoration: none;
+        p{
+
+            text-transform: uppercase;
+        }
+        :hover{
+            font-weight: 800;
+        }
+    }   
+
     h2{ 
         font-style: italic;
         font-weight: 500;
         font-size: 40px;
         line-height: 40px;
 
-        a{
-            color: var(--bs-primary);
-            text-decoration: none;
-            text-align: left;
-            font: normal normal 600 21px/31px ;
-            letter-spacing: 0px;
-            opacity: 1;
-        }
-
+        // a{
+        //     color: var(--bs-primary);
+        //     text-decoration: none;
+        //     text-align: left;
+        //     font: normal normal 600 21px/31px ;
+        //     letter-spacing: 0px;
+        //     opacity: 1;
+        // }
     }
     p{  
         font-size: 14px;
@@ -47,6 +58,16 @@
         }
 
     }
+    .contactFooter, .linksFooter{
+
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        p{
+            font-size: 18px;
+        }
+
+    }
     .container{
         padding:0px;
         margin: 0px;
@@ -63,5 +84,9 @@
         color: #222222;
         opacity: 1;
         padding-top: 5px;
+    }
+
+    .footerButtonCont{
+        margin-top: -1em;
     }
 }
