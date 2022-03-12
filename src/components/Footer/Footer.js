@@ -25,7 +25,7 @@ export const Footer = () => {
                 <div className='col-md-3 mb-4'>
                     <Logo iconColor={'var(--bs-info)'} iconWidth={'80%'} iconHeight={'148'}/>
                 </div>
-                <div className='col-md-3 pb-5 offset-md-1'
+                <div id='footelClaim' className='col-md-3 pb-5 offset-md-0 '
                 >
                     <h2>The future is not waiting</h2>
                 </div>
@@ -46,7 +46,7 @@ export const Footer = () => {
                             />
                     ))}
                 </div>
-                    <div className='col-md-3 offset-md-1'
+                    <div className='col-md-3 offset-md-0'
                             >
                         <div className='row'>
                             <div className='col-md-6 contactFooter'

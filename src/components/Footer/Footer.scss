@@ -63,6 +63,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 35px;
+        padding-left: 40px;
         p{
             font-size: 18px;
         }
@@ -88,5 +89,9 @@
 
     .footerButtonCont{
         margin-top: -1em;
+    }
+
+    #footelClaim{
+        padding-left: 35px;
     }
 }
