@@ -1,6 +1,7 @@
 .strategieItem{
 
 
+
     position: relative;
    
 
@@ -46,6 +47,10 @@
         }
     }
 
+    #toLink{
+        z-index: 5;
+    }
+
     &:before{
         content: "";
         display: block;
@@ -65,4 +70,28 @@
         height: 100%;
         bottom: 0%;
     }
+    &::after{
+
+        content: "";
+        background: rgb(2,0,36);
+        background: linear-gradient(140deg, rgba(2,0,36,0) 25%, rgba(255,255,255,1) 50%, rgba(0,0,0,0) 89%);
+        width: 0%;
+        height: 94%;
+        display: block;
+        position: absolute;
+        opacity: 0;
+        transition: all .3s;
+        left: -20px;
+
+    }
+    
+    &:hover::after{
+        width: 100%;
+        opacity: 0.1;
+        
+        
+    }
+
+
+
 }

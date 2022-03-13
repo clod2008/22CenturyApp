@@ -30,7 +30,7 @@ export const StrategieButton = ({title, text, img, icon,}) => {
                 }}
             
             >
-                <div className='col'>
+                <div id='toLink' className='col'>
                     <a
                         href={links[1].to}
                     >
