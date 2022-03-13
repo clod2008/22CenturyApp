@@ -1,9 +1,15 @@
 #Explainer{
-    background-color: var(--bs-primary);
+    background-color: var(--bs-secondary);
+    height: 500px !important;
 
-    .grilla{
-        border-color: black;
-        border-width: 2px;
-        border-style: solid;
+
+    .text{
+        color: var(--bs-info);
+        //       T    R    B    L
+        padding: 00px 50px 50px 00px;
+    } 
+    .img{
+        background-size: cover;
+        background-position: center;
     }
 }

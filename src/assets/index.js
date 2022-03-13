@@ -1,5 +1,8 @@
 // Img
 export { default as bgHome } from "./img/bannerImage2.jpg";
+export { default as explainer1 } from "./img/copernico--8DAN9_oi8g-unsplash.jpg";
+
+// malargue
 export { default as ecommerce } from "./img/ecommerce.png";
 export { default as empresa } from "./img/empresa.png";
 export { default as individuo } from "./img/individuo.png";

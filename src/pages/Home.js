@@ -21,8 +21,7 @@ const Home = () => {
         image={bgHome}
         title={[
           "The future is not waiting",
-        `  22nd Century Capital invests with our gaze focused far ahead and our grasp firmly on the present.
-          `,
+          `22nd Century Capital invests with our gaze focused far ahead and our grasp firmly on the present.`,
         ]}
         page={true}
       />
