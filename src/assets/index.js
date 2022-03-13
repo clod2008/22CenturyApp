@@ -1,6 +1,6 @@
 // Img
 export { default as bgHome } from "./img/bannerImage2.jpg";
-export { default as explainer1 } from "./img/copernico--8DAN9_oi8g-unsplash.jpg";
+export { default as explainer1 } from "./img/females-engineer-examine-the-parts-with-measurement-equipment-in-of-picture-id1302431129.png";
 
 // malargue
 export { default as ecommerce } from "./img/ecommerce.png";

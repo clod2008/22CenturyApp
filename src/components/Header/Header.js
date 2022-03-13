@@ -19,7 +19,7 @@ const Header = ({ image, title}) => {
           <div className="row justify-content-between h-100 align-items-center"
           >
             <div className='col-md-4 text-center'>
-                <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'150'}/>  
+                {/* <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'150'}/>   */}
             </div>
             <div className="col-md-7 "
             >
