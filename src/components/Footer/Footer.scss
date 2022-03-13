@@ -36,6 +36,9 @@
         letter-spacing: 0px;
         color: var(--bs-info);
         opacity: 0.8;
+        span{
+            opacity: 0.5;
+        }
 
     }
     li{
@@ -93,5 +96,10 @@
 
     #footelClaim{
         padding-left: 35px;
+    }
+    #LexaeonLogo{
+        margin-left: 5px;
+        padding-bottom: 2px;
+        opacity: 1;
     }
 }

@@ -4,11 +4,13 @@ import { socialData } from '../../js/social'
 import { Logo } from '../../assets/Logo'
 import { FooterButton } from '../FooterButton/FooterButton'
 import { links } from '../../js/link'
+import { LexaeonLogo } from '../../assets/LexaeonLogo'
 
 
 
 
 import './Footer.scss'
+import { FooterButtonArrow } from '../FooterButton/FooterButtonArrow'
 
 export const Footer = () => {
         const{
@@ -29,7 +31,7 @@ export const Footer = () => {
                 >
                     <h2>The future is not waiting</h2>
                 </div>
-                <div className='col-md-3'
+                <div className='col-md-2'
                         style={{
                         }}
                     >
@@ -70,14 +72,34 @@ export const Footer = () => {
                             </div>
                         </div>       
                     </div>
-                    <div className='col-md-3'
-                        style={{
-                        }}
+                    <div className='col-md-2'
+
                     >
-                        <p className=''>
-                            Privacy policy	
-                            Terms of use and disclaimer
-                        </p>
+                        <div className='row align-items-end h-100'>
+
+                            <div className='footerButtonCont '
+                                style={{
+                                    marginTop: '60px'
+                                }}
+                            >
+                                <FooterButtonArrow text={'Privacy policy'} icon={'fas fa-arrow-right'}/>
+                                <FooterButtonArrow text={'Terms of use and disclaimer'} icon={'fas fa-arrow-right'}/>
+                            </div>
+                            <div>
+                                <p
+                                    style={{
+                                    }}
+                                >
+                                    <span>
+                                    © 22nd Century Capital. All Rights Reserved. <br/>
+                                    Messaging and design by </span> 
+                                                            <span id='LexaeonLogo'>
+                                                                <LexaeonLogo iconColor={'white'} iconHeight={'10'} />
+                                                            </span>
+                                    
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
