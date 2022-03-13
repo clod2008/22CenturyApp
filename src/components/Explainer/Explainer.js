@@ -28,7 +28,8 @@ export const Explainer = () => {
                   </div>
                 <div className=' img col-md-6 text-center'
                   style={{
-                    backgroundImage: `url(${explainer1})`
+                    background: `linear-gradient(0deg, rgba(200, 154, 1, 0.5), rgba(200, 154, 1, 0.5)), url(${explainer1})`,
+                    backgroundBlendMode: 'multiply',
                   }}
                 >
                     

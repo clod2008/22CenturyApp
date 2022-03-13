@@ -16,14 +16,14 @@ const Header = ({ image, title}) => {
       >
         <div className="container h-100"
         >
-          <div className="row justify-content-between h-100 align-items-center"
+          <div className="row justify-content-start h-100 align-items-center"
           >
-            <div className='col-md-4 text-center'>
+            <div className='col-md-10 text-left'>
                 {/* <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'150'}/>   */}
+              <h1>{title[0]}</h1>
             </div>
-            <div className="col-md-7 "
+            <div className="col-md-2 "
             >
-                <h1>{title[0]}</h1>
             </div>
           </div>  
         </div>
