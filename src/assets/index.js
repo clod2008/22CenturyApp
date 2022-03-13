@@ -1,6 +1,9 @@
 // Img
 export { default as bgHome } from "./img/bannerImage2.jpg";
 export { default as explainer1 } from "./img/asian-engineers-discussing-on-a-wind-farmtechnology-and-holograms-picture-id1251321613.png";
+export { default as startegieImg01 } from "./img/trend.jpg";
+export { default as startegieImg02 } from "./img/charisse-kenion-9dFKHWNtY20-unsplash_copy.jpg";
+export { default as startegieImg03 } from "./img/trade.jpg";
 
 // malargue
 export { default as ecommerce } from "./img/ecommerce.png";

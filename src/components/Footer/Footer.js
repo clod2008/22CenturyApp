@@ -27,11 +27,11 @@ export const Footer = () => {
                 <div className='col-md-3 mb-4'>
                     <Logo iconColor={'var(--bs-info)'} iconWidth={'80%'} iconHeight={'148'}/>
                 </div>
-                <div id='footelClaim' className='col-md-3 pb-5 offset-md-0 '
+                <div id='footelClaim' className='col-md-4 pb-5 offset-md-0 '
                 >
                     <h2>The future is not waiting</h2>
                 </div>
-                <div className='col-md-2'
+                <div className='col-md-1'
                         style={{
                         }}
                     >
@@ -85,8 +85,8 @@ export const Footer = () => {
                                 <FooterButtonArrow text={'Privacy policy'} icon={'fas fa-arrow-right'}/>
                                 <FooterButtonArrow text={'Terms of use and disclaimer'} icon={'fas fa-arrow-right'}/>
                             </div>
-                            <div>
-                                <p
+                            <div >
+                                <p className='copyrigth'
                                     style={{
                                     }}
                                 >

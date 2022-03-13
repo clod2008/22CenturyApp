@@ -23,7 +23,6 @@ export const Explainer = () => {
                 <div className='text col-md-4 text-left'>
                   <div className='row align-items-center h-100'>
                       <div className='col-md-12'
-
                       >
                           <h2>
                             22nd Century Capital invests with our gaze focused far ahead and our grasp firmly on the present.
@@ -31,7 +30,7 @@ export const Explainer = () => {
                           <h4>
                             We believe one of the most misunderstood assets investors can wield is time —not only time to be patient, but time as a powerful agent of change.
                           </h4>
-                          <LogoAnimado iconColor={'var(--logoOverlay)'}  iconHeight={'150'}/>  
+                          <LogoAnimado iconColor={'var(--logoOverlay)'}  iconWidth={'100%'}/>  
                       </div>
                     </div>
                 </div>
