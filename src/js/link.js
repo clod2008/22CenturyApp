@@ -4,27 +4,27 @@ export const links = [
         name: 'Home'
     },
     {
-        to: '/servicios',
+        to: '/#',
         name: 'Strategies'
     },
     {
-        to: '/nosotros',
+        to: '/#',
         name: 'People'
     },
     {
-        to: '/seguimiento',
+        to: '/#',
         name: 'Values'
     },
     {
-        to: '/cotiza',
+        to: '/#',
         name: 'History'
     },
     {
-        to: '/cotiza',
+        to: '/#',
         name: 'Careers'
     },
     {
-        to: '/contacto',
+        to: '/#',
         name: 'Contact'
     },
   ];
