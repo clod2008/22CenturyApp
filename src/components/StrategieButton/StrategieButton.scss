@@ -82,12 +82,14 @@
         opacity: 0;
         transition: all .3s;
         left: -20px;
+        z-index: 1;
 
     }
     
     &:hover::after{
         width: 100%;
         opacity: 0.1;
+        z-index: 1;
         
         
     }

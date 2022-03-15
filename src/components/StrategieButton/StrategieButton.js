@@ -8,8 +8,8 @@ export const StrategieButton = ({title, text, img, icon,}) => {
     console.log(links[1].to)
   return (
       <div className='row strategieItem align-items-center'>
-        <div className='col-md-6 pb-3'
-            
+        <div className='col-md-6 pb-3 '
+            id='toLink'
         >
             <h2>
                 {title}
@@ -17,14 +17,14 @@ export const StrategieButton = ({title, text, img, icon,}) => {
             <p>
                 {text}
             </p>
-            <div id='toLink' className='col'>
-                    <a
-                        href={links[1].to}
-                    >
+            <a
+                href={links[1].to}
+            >
+                <div className='col'>
                         <i className={`${icon} fa-1x`}></i><br />
                         <small>Read more</small>
-                    </a>
                 </div>
+            </a>
         </div>
     
         <div className='col-md-6'>
