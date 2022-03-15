@@ -8,7 +8,7 @@ export const StrategieButton = ({title, text, img, icon,}) => {
     console.log(links[1].to)
   return (
       <div className='row strategieItem align-items-center'>
-        <div className='col-md-5'
+        <div className='col-md-6 pb-3'
             
         >
             <h2>
@@ -17,20 +17,7 @@ export const StrategieButton = ({title, text, img, icon,}) => {
             <p>
                 {text}
             </p>
-        </div>
-        <div className='col-md-1 align-self-stretch'
-           style={{
-            minHeight: '100%',
-            // backgroundColor: 'blue'
-               
-           }}
-        >   
-            <div className='row align-items-center h-100 '
-                style={{
-                }}
-            
-            >
-                <div id='toLink' className='col'>
+            <div id='toLink' className='col'>
                     <a
                         href={links[1].to}
                     >
@@ -38,8 +25,8 @@ export const StrategieButton = ({title, text, img, icon,}) => {
                         <small>Read more</small>
                     </a>
                 </div>
-            </div>
         </div>
+    
         <div className='col-md-6'>
             <div className='row'
         
